@@ -35,7 +35,7 @@ public class ball extends gameObject  {
   }
   
 
- void pitchBall() {    
+ public void pitchBall() {    
 
     x = width/2;
     y = height/2;
@@ -56,7 +56,7 @@ public class ball extends gameObject  {
       //velocity.x = -velocity.x; 
       //speed += 100;
       
-      //pitchBall();
+      pitchBall();
       
       return true;
     } 
