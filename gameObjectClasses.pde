@@ -34,15 +34,15 @@ public class ball extends gameObject  {
     velocity = new PVector(cos(direction), -sin(direction));
   }
   
-<<<<<<< HEAD
+
   public void pitchBall() {
 
     x = 150;
     y = 100;
 
-=======
+
   public void pitchBall() {    
->>>>>>> refs/remotes/KasperK87/master
+
     x = width/2;
     y = height/2;
 
