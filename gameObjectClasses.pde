@@ -35,21 +35,15 @@ public class ball extends gameObject  {
   }
   
 
- //void pitchBall() {
+ void pitchBall() {    
 
- //   x = 150;
- //   y = 100;
+    x = width/2;
+    y = height/2;
 
+    direction = random(360);
+    speed = 300;
 
- //void pitchBall() {    
-
- //   x = width/2;
- //   y = height/2;
-
- //   direction = random(360);
- //   speed = 300;
-
- // }
+  }
   
   public boolean collision(){
     
